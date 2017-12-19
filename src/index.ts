@@ -1,5 +1,17 @@
+export {FftAdapter} from "./FftAdapter";
+export {KeyClassifier} from "./KeyClassifier";
+export {LowPassFilter} from "./LowPassFilter";
+export {LowPassFilterFactory} from "./LowPassFilterFactory";
+export {SpectrumAnalyser} from "./SpectrumAnalyser";
+export {TemporalWindowFactory} from "./TemporalWindowFactory";
+export {ToneProfile} from "./ToneProfile";
+export {WindowFunction} from "./WindowFunction";
+export {Chromagram} from "./Chromagram";
+export {ChromaTransform} from "./ChromaTransform";
+export {ChromaTransformFactory} from "./ChromaTransformFactory";
+export {DFT} from "./Dft";
+export {Binode} from "./Binode";
 export {Constants, key_t} from './Constants';
 export {KeyFinder} from './KeyFinder';
 export {Workspace} from './Workspace';
 export {AudioData} from './AudioData';
-

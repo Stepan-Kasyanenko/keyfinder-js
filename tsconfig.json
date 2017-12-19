@@ -1,11 +1,18 @@
 {
   "compilerOptions": {
-    "module": "umd",
-    "target": "es5",
-    "declaration": true,
-    "outDir": "./dist"
-  },
-  "include": [
-    "src/**/*"
-  ]
+    "module": "commonjs",
+    "sourceMap": true,
+    "declaration": false,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "ES5",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "dom",
+      "es6"
+    ]
+  }
 }
