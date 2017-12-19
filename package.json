@@ -1,0 +1,13 @@
+{
+  "name": "keyfinder-js",
+  "author": "Stepan Kasyanenko",
+  "version": "1.0.0",
+  "description": "Determinate key of audio",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "devDependencies": {
+    "ts-loader": "^3.2.0",
+    "tsc": "^1.20150623.0",
+    "webpack": "^3.10.0"
+  }
+}
